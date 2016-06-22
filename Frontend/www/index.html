@@ -15,58 +15,549 @@
 
 </head>
 <body>
-<div id="cart"></div>
-<div class="container">
-    <div class="row" id="pizza_list">
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail pizza-card">
-                <img src="assets/images/pizza_1.jpg">
+    <div src="assets/images/discount.svg" class="pizza-lable">
+        <a class="pizza-title-1" href="index.html">PIZZA</a>
+                <br>
+        <a class="pizza-title-2" href="index.html">KMA</a>
+     </div>
+        <div class="discont">
+            <div class="discont-text">ЦЬОГО ТИЖНЯ НА ВСЕ</div>
+            <div class="discont-percent">-20%</div>
+        </div>
+    <div class="header navbar navbar-top-fixed ">
+        <div class="row header-row">
 
-                <div class="caption"><h3>Thumbnail label</h3>
-
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-
-                    <p>
-                        <a href="#" class="btn btn-primary">Button 2</a>
-                        <a href="#" class="btn btn-default">Button 1</a>
-                    </p>
+            <div class="header-first-line container-fluid ">
+                <div class="phone-number info-item">(044) 222 5 222</div>
+                <div class="worktime info-item hidden-xs hidden-sm ">24 години/ 7 днів на тиждень</div>
+                <div class="delivery-info info-item visible-lg-inline-block">Безкоштовна доставка піци</div>
+                <div class="sign-in-button btn btn-warning info-item "> Ввійти</div>
+            </div>
+            <div class="header-second-line container-fluid ">
+                <div class="pizza">
+                    <a href="index.html" class="pizza-link">Піца</a>
                 </div>
             </div>
-        </div>
+           
+        </div> 
 
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail pizza-card">
-                <img src="assets/images/pizza_2.jpg">
-
-                <div class="caption"><h3>Thumbnail label</h3>
-
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-
-                    <p>
-                        <a href="#" class="btn btn-primary">Button 3</a>
-                        <a href="#" class="btn btn-default">Button 4</a>
-                    </p>
+    </div>
+    <div class="main-container row">
+        <div class="left-panel col-md-9 col-lg-9">
+            <div class="cart">
+                <lable class="cart-lable">Усі піци<lable class="cart-lable-amount">0</lable></lable>
+                <div class="cart-btn-group">
+                    <div class="cart-btn btn-warning btn active">Усі</div>
+                    <div class="cart-btn btn-warning btn inactive">Морепродукти</div>
+                    <div class="cart-btn btn-warning btn inactive">М'ясні</div>
+                    <div class="cart-btn btn-warning btn inactive">Вега</div>
                 </div>
             </div>
+            
+                <div class="main-box">
+                    <div class="row" id="pizza_list">
+                        <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="thumbnail pizza-card">
+                                <img class="pizza-img" src="assets/images/pizza_1.jpg">
+
+                                <div class="caption">
+                                    <h3 class="pizza-name">Імпреза</h3>
+                                    <lable class="pizza-type">М'ясна піца</lable>
+                                    <p class="pizza-igradients">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    
+                                    <div class="pizza-var-set">
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                               <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="thumbnail pizza-card">
+                                <img class="pizza-img" src="assets/images/pizza_1.jpg">
+
+                                <div class="caption">
+                                    <h3 class="pizza-name">Імпреза</h3>
+                                    <lable class="pizza-type">М'ясна піца</lable>
+                                    <p class="pizza-igradients">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    
+                                    <div class="pizza-var-set">
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="thumbnail pizza-card">
+                                <img class="pizza-img" src="assets/images/pizza_1.jpg">
+
+                                <div class="caption">
+                                    <h3 class="pizza-name">Імпреза</h3>
+                                    <lable class="pizza-type">М'ясна піца</lable>
+                                    <p class="pizza-igradients">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    
+                                    <div class="pizza-var-set">
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="thumbnail pizza-card">
+                                <img class="pizza-img" src="assets/images/pizza_1.jpg">
+
+                                <div class="caption">
+                                    <h3 class="pizza-name">Імпреза</h3>
+                                    <lable class="pizza-type">М'ясна піца</lable>
+                                    <p class="pizza-igradients">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    
+                                    <div class="pizza-var-set">
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="thumbnail pizza-card">
+                                <img class="pizza-img" src="assets/images/pizza_1.jpg">
+
+                                <div class="caption">
+                                    <h3 class="pizza-name">Імпреза</h3>
+                                    <lable class="pizza-type">М'ясна піца</lable>
+                                    <p class="pizza-igradients">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    
+                                    <div class="pizza-var-set">
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="thumbnail pizza-card">
+                                <img class="pizza-img" src="assets/images/pizza_1.jpg">
+
+                                <div class="caption">
+                                    <h3 class="pizza-name">Імпреза</h3>
+                                    <lable class="pizza-type">М'ясна піца</lable>
+                                    <p class="pizza-igradients">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    
+                                    <div class="pizza-var-set">
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="thumbnail pizza-card">
+                                <img class="pizza-img" src="assets/images/pizza_1.jpg">
+
+                                <div class="caption">
+                                    <h3 class="pizza-name">Імпреза</h3>
+                                    <lable class="pizza-type">М'ясна піца</lable>
+                                    <p class="pizza-igradients">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    
+                                    <div class="pizza-var-set">
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="thumbnail pizza-card">
+                                <img class="pizza-img" src="assets/images/pizza_1.jpg">
+
+                                <div class="caption">
+                                    <h3 class="pizza-name">Імпреза</h3>
+                                    <lable class="pizza-type">М'ясна піца</lable>
+                                    <p class="pizza-igradients">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    
+                                    <div class="pizza-var-set">
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                        <div class="pizza-var">
+
+                                            <div class="pizza-param">
+                                                <div class="pizza-param-diameter">
+                                                    <img class="pizza-param-diameter-img" src="assets/images/size-icon.svg"/>
+                                                    <span>30</span>
+                                                </div>
+                                                <div class="pizza-param-weight">
+                                                    <img class="pizza-param-weight-img" src="assets/images/weight.svg"/>
+                                                    <span class="pizza-param-weight-value">370</span>
+                                                </div>
+                                            </div>
+                                            <div class="pizza-price">
+                                                <div class="pizza-price-sum">99</div>
+                                                <div class="pizza-price-currency">грн</div>
+                                            </div>
+                                            <div class="btn btn-warning pizza-buy-btn">Купити</div>
+
+                                        </div> 
+
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+
+    </div>
+</div>
+
+    
+        <div class="footer-info-panel">
+            <p>Pizza.KMA - практичний проект курсу JavaScript в Києво-Могилянській Академії</p>
+            <p>Доставка піци не здійснюється</p>
+      
+            </div>
         </div>
+        <div class="right-panel-gag col-md-3 col-lg-3"></div>
+        <div class="right-panel col-md-3 col-lg-3">
+            <div class="order-lable">
+                <lable class="order-lable-text">Замовлення
+                    <lable class="order-lable-count">0</lable>
+                </lable>
+                <div class="order-clear btn">Очистити замовлення</div>
+            </div>
+            <div class="order-items">
+                <!--<div class="order-item-template">-->
+                    <div class="order-item">
+                        <img src="assets/images/pizza_1.jpg" class="order-item-img-image "/>
+                        <div class="order-item-info">
+                            <div class="order-item-lable">
+                                <div class="order-item-lable-name">Імпрезо</div>
+                                <div class="order-item-lable-size">(Мала)</div>
+                            </div>
+                            <div class="order-item-parameters">
+                                <div class="order-item-diameter">
+                                    <img class="order-item-diameter-img" src="assets/images/size-icon.svg"/>
+                                    <span class="order-item-diameter-value">30</span>
+                                </div>
+                                <div class="order-item-weight">
+                                    <img class="order-item-weight-img" src="assets/images/weight.svg"/>
+                                    <span class="order-item-weight-value">370</span>
+                                </div>
+                            </div>
+                            <div class="order-item-amount">
+                                <div class="order-item-amount-price">
+                                    <span class="order-item-amount-price-value">123</span>
+                                    <span>грн</span>
+                                </div>
+                                <div class="order-item-amount-change">
+                                    <div class="order-item-minus-btn glyphicon glyphicon-minus"></div>
+                                    <div class="order-item-amount-current">1</div>
+                                    <div class="order-item-plus-btn glyphicon glyphicon-plus"></div>
+                                </div>
+                                <div class="order-item-amount-remove-btn glyphicon glyphicon-remove"></div>
+                            </div>
+                        </div>    
 
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail pizza-card">
-                <img src="assets/images/pizza_3.jpg">
-
-                <div class="caption"><h3>Thumbnail label</h3>
-
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-
-                    <p>
-                        <a href="#" class="btn btn-primary">Button 5</a>
-                        <a href="#" class="btn btn-default">Button 6</a>
-                    </p>
+                    </div>
+      
+                
+                <!--</div>-->
+            </div>
+            <div class="order-button ">
+                <div class="order-sum">
+                    <div class="order-total-lable">Сума замовлення</div>
+                    <div class="order-total-sum">
+                        <span class="order-total-sum-value">234234</span>
+                        <span> грн</span>
+                    </div>
                 </div>
+                <div class="order-button-btn btn btn-warning">Замовити</div>
             </div>
         </div>
     </div>
-</div>
+
 
 <!-- jQuery JavaScript -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
@@ -75,6 +566,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <!--Own JavaScript -->
-<script type="text/javascript"  src="assets/js/main.js"> </script>
+<!--<script type="text/javascript"  src="assets/js/main.js"> </script>-->
 </body>
 </html>
