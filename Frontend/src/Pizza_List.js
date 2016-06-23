@@ -2,7 +2,7 @@
  * Created by diana on 12.01.16.
  */
 
-var pizza_info = [
+var pizza_info =  [
     {
         id:1,
         icon:'assets/images/pizza_7.jpg',
